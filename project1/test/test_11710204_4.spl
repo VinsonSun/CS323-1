@@ -1,0 +1,10 @@
+int func_2(int x, int y)
+{
+  return x + y;
+}
+int test_11710204_r4(
+{
+  int a, b;
+  c = func_2(a, B;
+  return c;
+}
