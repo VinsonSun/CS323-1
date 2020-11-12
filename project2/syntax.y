@@ -398,7 +398,7 @@ Exp : Exp ASSIGN Exp{
     add_child($$, $4);
 }
     | ID LP Args error{
-    fprintf(stdout, "Error type B at Line %d: %s\n", @3.last_line, "Missing closing parenthesis ')'");
+    fprintf(stdout, "Error type B at Line %d: %s\n", @1.last_line, "Missing closing parenthesis ')'");
 }
     | ID LP RP{
     $$ = new_node(@1.first_line, "Exp", 0, NULL);
