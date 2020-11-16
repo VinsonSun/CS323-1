@@ -1,4 +1,6 @@
-int test_11710204_r1()
+int test_11710204_1()
 {
-  c = 'c;
+  int a = 3;
+  a = a + b;
+  return a;
 }

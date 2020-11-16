@@ -1,0 +1,11 @@
+int add(int x, int y, int z)
+{
+    return x + y + z;
+}
+int test_11710204_9()
+{
+  int a = 2;
+  int b = 3;
+  int c = add(a,b);
+  return c;
+}

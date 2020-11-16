@@ -1,1 +1,2 @@
-Error type B at Line 3: Missing semicolon ';'
+Error type 3 at Line 4: redefine variable: a
+Error type 8 at Line 5: incompatiable return type

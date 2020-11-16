@@ -1,2 +1,1 @@
-Error type B at Line 1: Missing closing parenthesis ')'
-Error type A at Line 3: unknown lexeme `
+Error type 5 at Line 4: unmatching type on both sides of assignment

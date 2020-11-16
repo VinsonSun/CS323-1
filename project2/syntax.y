@@ -337,7 +337,7 @@ Exp : Exp ASSIGN Exp{
     add_child($$, $1);
     add_child($$, $2);
     add_child($$, $3);
-}   
+}
     | Exp EQ Exp{
     $$ = new_node(@1.first_line, "Exp", 0, NULL);
     add_child($$, $1);

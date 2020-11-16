@@ -1,2 +1,1 @@
-Error type B at Line 5: Missing closing parenthesis ')'
-Error type B at Line 8: Missing closing parenthesis ')'
+Error type 4 at Line 5: redefine function: test_11710204_4
